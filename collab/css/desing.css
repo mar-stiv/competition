@@ -70,4 +70,11 @@ body {
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+
+  h1{
+    color: black;
+    font-family: verdana;
+    font-size: 250%;
+
+  }
 }
