@@ -1,0 +1,20 @@
+<!DODTYPE html>
+<html>
+<head>
+  <title>VodaMarket</title>
+  <a href="index.html">
+      <img src="images/logo.jpg" width="215px" height="auto"
+   alt="Logo"></a>
+        <form method="get" action="account.html">
+            <button type="submit">Sign Up</button>
+        </form>
+</head>
+
+<body>
+<h1> Welcome to our Wesite</h1>
+<h3>It is our duty to save the enviorment</h3>
+<p> Learn how we are tring to help the enviorment in the <a herf="">
+  about section </p>
+<p> We have sent you an email to verify your account</p>
+<body>
+<html>
