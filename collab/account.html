@@ -42,12 +42,12 @@
                      <a class="nav-link" href="card.html">Loyalty Card</a>
                    </li>
                    <li class="nav-item">
-                     <a class="nav-link" href="recipes.html">Another Link</a>
+                     <a class="nav-link" href="recipes.html">Recipes</a>
                    </li>
                  </ul>
                </div>
              </nav>
-             
+
        <div class="search-container">
             <form action="/action_page.php">
                 <input type="text" placeholder="Search.." name="search">
@@ -57,12 +57,31 @@
 
   <body>
 
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" id="log-in" data-toggle="tab"
+        href="#home" role="tab" aria-controls="home"
+        aria-selected="true" href="#">Log In</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  id="sign-up" data-toggle="tab"
+        href="#home" role="tab" aria-controls="home"
+        aria-selected="true" href="#">Sign Up</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="log-in" role="tabpanel"
+      aria-labelledby="log-in-tab">Log In</div>
+      <div class="tab-pane fade" id="sign-up" role="tabpanel"
+      aria-labelledby="sign-in-tab">Sign Up</div>
+    </div>
+
   <form action="">
       Name: <input type="text" name="fname"><br>
       Surname: <input type="text" name="lname"><br>
       Email: <input type="text" name="email"><br>
       Country: <input type="text" name="country"><br>
-      <button type="submit">Submit</button><br>
+      <button type="submit"><a href"welcome.html">Submit</button><br>
       <button type="submit"><a href="http://www.facebook.com">
         Sign Up with Facebook</a></button>
   </form>
