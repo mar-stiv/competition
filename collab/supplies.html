@@ -38,7 +38,6 @@
       </ul>
     </div>
   </nav>
-
   <main role="main" class="container">
     <div class="row">
       <div class="col-sm">
@@ -47,13 +46,33 @@
           <img src="images/hs1.png" alt="Cloralen" width="215px"
           height="auto">
         </a>
-        <h3>Cloralen</h3>
+        <h3>Bleach</h3>
       <div class="pricing">
-        <a class="add-to-cart" href="">Add to cart</a>
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#chloroxModal">
+              Add to Cart
+       </button>
+       <div class="modal fade" id="chloroxModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLab" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Added to Chart</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+               </button>
+             </div>
+             <div class="modal-body">
+               This item has been added to your cart.
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+             </div>
+           </div>
+         </div>
+       </div>
         <p class="price"><span class="mr-2 price-dc">$10.00</span></p>
       </div>
     </div>
-
       <div class="col-sm">
         <br><br>
           <a href="#">
@@ -61,11 +80,31 @@
         </a>
         <h3>Bucket</h3>
         <div class="pricing">
-          <a class="add-to-cart" href="">Add to cart</a>
+          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#bucketModal">
+                Add to Cart
+         </button>
+         <div class="modal fade" id="bucketModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLab" aria-hidden="true">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">Added to Chart</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+               </div>
+               <div class="modal-body">
+                 This item has been added to your cart.
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                 <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+               </div>
+             </div>
+           </div>
+         </div>
           <p class="price"><span class="mr-2 price-dc">$25.00</span></p>
         </div>
       </div>
-
       <div class="col-sm">
         <br><br>
         <a href="#">
@@ -73,7 +112,28 @@
         </a>
         <h3>Floor Cloth</h3>
           <div class="pricing">
-            <a class="add-to-cart" href="">Add to cart</a>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#clothModal">
+                  Add to Cart
+           </button>
+           <div class="modal fade" id="clothModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLab" aria-hidden="true">
+             <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <h5 class="modal-title" id="exampleModalLabel">Added to Chart</h5>
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                   </button>
+                 </div>
+                 <div class="modal-body">
+                   This item has been added to your cart.
+                 </div>
+                 <div class="modal-footer">
+                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                   <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                 </div>
+               </div>
+             </div>
+           </div>
             <p class="price"><span class="mr-2 price-dc">$15.00</span></p>
           </div>
       </div>
